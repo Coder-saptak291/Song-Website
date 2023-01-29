@@ -36,8 +36,7 @@ footer {
 }
 
 ::-webkit-scrollbar {
-    background-color: rgb(71, 63, 63);
-    margin-right:7vw ;
+    display: none;
 }
 
 #navbar {
@@ -60,6 +59,8 @@ footer {
 
 .wh {
     width: 100%;
+    margin: auto;
+    margin-top: 2vh;
 }
 
 .song {
@@ -71,12 +72,11 @@ footer {
     display: flex;
     margin: auto;
     margin-top: 6vh;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* margin: auto; */
     text-align: center;
-    /* height: 24vh; */
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .name {
@@ -95,7 +95,6 @@ footer {
     padding: 2vh 2vw;
     font-size: 1.3rem;
     border: 3px solid white;
-    /* display: block; */
     cursor: pointer;
 }
 
@@ -158,5 +157,8 @@ footer {
         align-self: center;
         justify-content: center;
         border-radius: 7px;
+    }
+    .playbutton{
+        display: flex;
     }
 }
